@@ -1,9 +1,5 @@
 # Contributing to OpenArtifact
 
-Development happens on Codeberg: https://codeberg.org/openartifact/openartifact
-
-Please open issues and pull requests there.
-
-The repositories on GitHub are read-only mirrors. Pull requests opened on GitHub will not be merged, because the mirror is overwritten by pushes from Codeberg.
+Development happens at https://github.com/openartifact/openartifact. Please open issues and pull requests there, and read the repository's own `CONTRIBUTING.md` for the development setup and workflow.
 
 By contributing you agree that your contributions are licensed under AGPL-3.0-or-later. Please follow our [Code of Conduct](CODE_OF_CONDUCT.md).

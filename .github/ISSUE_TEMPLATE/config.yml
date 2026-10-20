@@ -1,5 +1,0 @@
-blank_issues_enabled: false
-contact_links:
-  - name: Report an issue on Codeberg
-    url: https://codeberg.org/openartifact/openartifact/issues
-    about: Issues are tracked on Codeberg. This GitHub repository is a read-only mirror.
