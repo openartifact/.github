@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/openartifact/openartifact/main/docs/logo.png" alt="OpenArtifact logo" width="96">
+  <img src="https://raw.githubusercontent.com/openartifact/openartifact/main/docs/assets/logo.png" alt="OpenArtifact logo" width="96">
 </p>
 
 <h1 align="center">OpenArtifact</h1>
@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/openartifact/openartifact/main/docs/screenshots/dashboard.png" alt="OpenArtifact dashboard" width="820">
+  <img src="https://raw.githubusercontent.com/openartifact/openartifact/main/docs/assets/screenshots/dashboard.png" alt="OpenArtifact dashboard" width="820">
 </p>
 
 npm · PyPI · Maven · Docker/OCI · Helm · Debian · RPM · Go · Cargo · NuGet · RubyGems · Conda · Conan · Ivy · sbt · raw
@@ -44,6 +44,6 @@ docker pull ghcr.io/openartifact/openartifact:latest
 helm install openartifact oci://ghcr.io/openartifact/charts/openartifact
 ```
 
-Docker Compose quickstart and configuration: [README](https://github.com/openartifact/openartifact#quickstart-docker-compose).
+Docs: [installation](https://github.com/openartifact/openartifact/blob/main/docs/getting-started/installation.md) · [configuration](https://github.com/openartifact/openartifact/blob/main/docs/getting-started/configuration.md) · [all docs](https://github.com/openartifact/openartifact/tree/main/docs)
 
 Contributing: [CONTRIBUTING.md](https://github.com/openartifact/.github/blob/main/CONTRIBUTING.md) · Security: [SECURITY.md](https://github.com/openartifact/.github/blob/main/SECURITY.md)
