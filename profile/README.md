@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <b>Self-hosted artifact repository for 16 package formats.</b><br>
+  <b>Self-hosted artifact repository for many package formats.</b><br>
   One Go binary, embedded web UI, PostgreSQL. Free software under the AGPL-3.0-or-later.
 </p>
 
