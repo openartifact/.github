@@ -41,6 +41,7 @@ npm · PyPI · Maven · Docker/OCI · Helm · Debian · RPM · Go · Cargo · Nu
 |---|---|
 | [openartifact](https://github.com/openartifact/openartifact) | Server, web UI, `oa` CLI. Issues and pull requests go here. |
 | [helm-charts](https://github.com/openartifact/helm-charts) | Helm chart: `oci://ghcr.io/openartifact/charts/openartifact` |
+| [terraform-aws-openartifact](https://github.com/openartifact/terraform-aws-openartifact) | Terraform/OpenTofu module for AWS (ECS Fargate or EKS, S3, RDS): [`openartifact/openartifact/aws`](https://registry.terraform.io/modules/openartifact/openartifact/aws) |
 | [openartifact.github.io](https://github.com/openartifact/openartifact.github.io) | Website and versioned documentation |
 | [brand](https://github.com/openartifact/brand) | Logos, colours, type and usage guide (CC-BY-SA-4.0) |
 | [openartifact-plugin](https://github.com/openartifact/openartifact-plugin) | Jenkins plugin: upload artifacts, create bundles, promote releases, build badges |
@@ -52,6 +53,16 @@ npm · PyPI · Maven · Docker/OCI · Helm · Debian · RPM · Go · Cargo · Nu
 ```sh
 docker pull ghcr.io/openartifact/openartifact:latest
 helm install openartifact oci://ghcr.io/openartifact/charts/openartifact
+```
+
+On AWS, with Terraform or OpenTofu:
+
+```hcl
+module "openartifact" {
+  source  = "openartifact/openartifact/aws"
+  version = "~> 0.1"
+  # vpc_id, subnets, certificate_arn, allowed_ingress_cidrs: see the module README
+}
 ```
 
 The `oa` CLI is on the [releases page](https://github.com/openartifact/openartifact/releases/latest) for Linux, macOS and Windows (amd64, arm64):
