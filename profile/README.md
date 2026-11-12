@@ -46,6 +46,7 @@ npm · PyPI · Maven · Docker/OCI · Helm · Debian · RPM · Go · Cargo · Nu
 | [brand](https://github.com/openartifact/brand) | Logos, colours, type and usage guide (CC-BY-SA-4.0) |
 | [openartifact-plugin](https://github.com/openartifact/openartifact-plugin) | Jenkins plugin: upload artifacts, create bundles, promote releases, build badges |
 | [drone-openartifact](https://github.com/openartifact/drone-openartifact) | Drone and Woodpecker plugin: upload artifacts and promote releases |
+| [openartifact-agent-plugin](https://github.com/openartifact/openartifact-agent-plugin) | Community plugin for Claude Code and Cursor: the OpenArtifact MCP server, read-only |
 | [saml](https://github.com/openartifact/saml) | Fork of crewjam/saml used by the server: large signed assertion fix for goxmldsig 1.6 |
 
 ## Get started
